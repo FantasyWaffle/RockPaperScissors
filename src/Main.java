@@ -55,7 +55,6 @@ class Main {
                     default: JOptionPane.showMessageDialog(null, "Computer chose scissors, it's a draw :|");
             }
                 break;
-
             default: 
         }
     }
