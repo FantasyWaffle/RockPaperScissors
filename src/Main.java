@@ -11,7 +11,7 @@ class Main {
 
         //Player select ui (0=Rock, 1+Paper, and 2=Scissors)
         String[] options = new String[] {"Rock", "Paper", "Scissors"};
-            int Player = JOptionPane.showOptionDialog(null, "The computer has chosen. Now it's your turn", "Shoot",
+            int Player = JOptionPane.showOptionDialog(null, "Rock, Paper, Scissors, Shoot!", "Shoot",
             JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE,
             null, options, options[0]);
 
