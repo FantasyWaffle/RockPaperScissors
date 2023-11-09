@@ -19,30 +19,39 @@ class Main {
 
             //Rock
             case 0: switch (Computer) {
+                    //Rock
                     case 0: JOptionPane.showMessageDialog(null, "Computer chose rock, it's a draw.");
                         break;
+                    //Paper
                     case 1: JOptionPane.showMessageDialog(null, "Computer chose paper. you lost");
                         break;
+                    //Scissors
                     default: JOptionPane.showMessageDialog(null, "Computer chose scissors, you won!");
             };
                 break;
 
             //Paper
             case 1: switch (Computer) {
+                    //Rock
                     case 0: JOptionPane.showMessageDialog(null, "Computer chose rock, you won :)");
                         break;
+                    //Paper
                     case 1: JOptionPane.showMessageDialog(null, "Computer chose paper. it's a draw :|");
                         break;
+                    //Scissors
                     default: JOptionPane.showMessageDialog(null, "Computer chose scissors, you lost :(");
             };
                 break;
 
             //Scissors
             case 2: switch (Computer) {
+                    //Rock
                     case 0: JOptionPane.showMessageDialog(null, "Computer chose rock, you lost :(");
                         break;
+                    //Paper
                     case 1: JOptionPane.showMessageDialog(null, "Computer chose paper. you won :)");
                         break;
+                    //Scissors
                     default: JOptionPane.showMessageDialog(null, "Computer chose scissors, it's a draw :|");
             }
                 break;
